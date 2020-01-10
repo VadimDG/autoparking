@@ -1,0 +1,24 @@
+
+.presentation-line{
+    display: flex;
+    margin-bottom: 10px;
+
+    .service-line-input {
+        margin-right: 10px;
+    }
+
+    .add-service {
+        margin-right: 10px;
+    }
+    .element-text {
+        flex-grow: 1;
+    }
+
+    .edit-service {
+        margin-right: 6px;
+    }
+
+    .finger{
+        cursor: pointer;
+    }
+}
