@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { MDBContainer, MDBRow } from "mdbreact";
-import ServiceCard from "./ServiceCart";
+import ServiceCard from "./ServiceCard";
 
 function ConvertToTime() {
   const date = new Date();
@@ -21,13 +21,13 @@ export default function AutoService() {
   return (
     <MDBContainer>
       <MDBRow>
-        <ServiceCard title="Автосервис 1" />
+        <ServiceCard title="Автосервис 1" cardNumber={1} />
         <div>{time}</div>
-        <ServiceCard title="Автосервис 2" />
+        <ServiceCard title="Автосервис 2" cardNumber={2} />
       </MDBRow>
       <MDBRow>
-        <ServiceCard title="Автосервис 3" />
-        <ServiceCard title="Автосервис 4" />
+        <ServiceCard title="Автосервис 3" cardNumber={3} />
+        <ServiceCard title="Автосервис 4" cardNumber={4} />
       </MDBRow>
     </MDBContainer>
   );
